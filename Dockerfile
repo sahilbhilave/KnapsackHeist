@@ -6,7 +6,7 @@ COPY src ./src
 RUN mvn clean package -DskipTests
 
 # Stage 2: Deploy on Tomcat
-FROM tomcat:10.1-jdk23-temurin
+FROM tomcat:jdk21-temurin
 WORKDIR /usr/local/tomcat/webapps/
 COPY --from=build /app/target/*.war ROOT.war
 EXPOSE 8080
