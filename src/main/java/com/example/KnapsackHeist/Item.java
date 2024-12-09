@@ -6,7 +6,6 @@ public class Item {
     private int value;
 
 
-    // Constructor, Getters and Setters
     public Item(String name, int weight, int value) {
         this.name = name;
         this.weight = weight;

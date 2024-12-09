@@ -67,7 +67,11 @@
             <ul class="pl-5 list-disc">
                 <li>Exceeding the knapsack's weight capacity will prevent you from adding more items.</li>
                 <li>Unstrategic choices might leave high-value items behind and reduce your total score.</li>
+
             </ul>
+        </li>
+        <li>
+            <b>It might be tricky at first to understand, but you'll get the hang of it after a few rounds</b>
         </li>
         <li class="text-red-500">
             <b>For The Geeks:</b>
@@ -82,15 +86,43 @@
 </div>
 
 <div id="about-project" class="mt-8 bg-gray-900 bg-opacity-90 p-6 rounded-lg shadow-lg max-w-2xl  hidden">
-    <h2 class="text-2xl font-bold text-blue-500 mb-4">About Project</h2>
+    <h2 class="text-2xl font-bold text-blue-500 mb-4 text-center">About Project</h2>
     <ul class="text-left list-disc text-gray-300 space-y-2 ml-4">
-        <li>Built using <b>Spring Boot Web</b>, providing robust server-side functionalities.</li>
-        <li>Developed with <b>Java</b> and <b>JSP</b> for server-side rendering and processing.</li>
-        <li>Styled with <b>Tailwind CSS</b> and dynamic elements powered by <b>JavaScript</b>.</li>
-        <li>Implements the <b>0/1 Knapsack problem</b> to create a strategic and educational gameplay experience.</li>
-        <li> Runs on an embedded <b>Tomcat server</b>, ensuring seamless deployment and portability.</li>
-        <li> Showcases concepts in <b>dynamic programming</b>, <b>algorithm optimization</b>, and <b>web development</b>.</li>
+        <li>
+            Built using the <b>Spring MVC architecture</b>, with <b>JSP</b> utilized for the view layer.
+        </li>
+        <li>
+            Leverages <b>Spring Boot Web</b> to simplify development and provide robust server-side functionalities.
+        </li>
+
+        <li>
+            Incorporates effective session management by utilizing <b>session attributes</b> to maintain user-specific
+            data across requests.
+        </li>
+        <li>
+            Styled with <b>Tailwind CSS</b> and enhanced by interactive elements built with <b>JavaScript</b>.
+        </li>
+
+        <li>
+            Powered by an embedded <b>Tomcat server</b> ensuring portability and seamless deployment without requiring
+            external configurations.
+        </li>
+        <li>
+            Deploys effortlessly using <b>Docker</b> enabling containerized delivery of the Spring Boot application for
+            consistent and efficient deployment across environments.
+        </li>
+        <li>
+            The project is implementation of the <b>0/1 Knapsack Problem</b> algorithm which showcases <b>dynamic programming</b> and <b>algorithm optimization</b> in the web.
+        </li>
+
+        <li>
+            Explore the complete project on <b>GitHub</b> for detailed implementation and instructions:
+            <a href="https://github.com/sahilbhilave/KnapsackHeist" target="_blank" class="text-blue-400 hover:underline">
+                GitHub Repository Link
+            </a>.
+        </li>
     </ul>
+
 </div>
 
 <footer class="my-6 text-sm text-gray-400 text-center">
