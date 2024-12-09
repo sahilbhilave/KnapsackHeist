@@ -52,7 +52,6 @@ public class GameService {
                 w -= item.getWeight();
             }
         }
-        System.out.println("Best items are "+bestItems);
         return new MaxScoreResult(dp[n][knapsackCapacity], bestItems);
     }
 
