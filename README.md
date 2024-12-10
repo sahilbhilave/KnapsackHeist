@@ -37,7 +37,7 @@ The game is based on the **0/1 Knapsack Problem** where the user has a limited c
 
 ## Setup Instructions
 
-### Build With
+### Built With
 
 - **Spring Boot 3.4.0**
 - **Java 23** 
